@@ -16,7 +16,7 @@ checksum = "f7d0cd59142d2aec41e99627d7cf01f99af8599b286b1e02fdce8b926dff655e"
 
 [[package]]
 name = "ub64"
-version = "0.0.9"
+version = "0.0.10"
 dependencies = [
  "base64",
  "intbin",
