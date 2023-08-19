@@ -1,4 +1,4 @@
-# b64 : urlsafe base64 encode / decode
+# ub64 : urlsafe base64 encode / decode
 
 [→ tests/main.rs](tests/main.rs)
 
@@ -18,11 +18,9 @@ fn main() {
 }
 ```
 
-
 run
 
 [→ out.txt](out.txt)
 
 ```txt
 ```
-
