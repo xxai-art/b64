@@ -5,7 +5,7 @@ cd $DIR
 set -ex
 
 ./run.sh 2>out.txt
-head -n -3 out.txt | tail -n +4 >tmp && mv tmp out.txt
+sed -i -e '2,4d' -e '$d' out.txt
 
 mdi
 

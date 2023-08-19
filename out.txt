@@ -1,0 +1,9 @@
++ cargo test -- --nocapture
+[tests/main.rs:7] &b64 = "AQID"
+[tests/main.rs:8] b64d(b64).unwrap() = [
+    1,
+    2,
+    3,
+]
+[tests/main.rs:11] &u64_b64 = "6hawTAI"
+[tests/main.rs:12] b64_u64(u64_b64) = 9876543210
