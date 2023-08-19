@@ -1,6 +1,6 @@
 [package]
 name = "ub64"
-version = "0.0.5"
+version = "0.0.6"
 edition = "2021"
 license = "BSL-1.0"
 homepage = "https://github.com/xxai-art/ub64"
@@ -10,10 +10,12 @@ description = "urlsafe base64 encode / decode"
 [dependencies]
 base64 = "0.21.2"
 intbin = { version = "0.0.5", optional = true }
+vbyte = { version = "0.1.0", optional = true }
 
 [features]
-intbin = ["dep:intbin"]
-default = ["intbin"]
+u64 = ["dep:intbin"]
+u64li = ["dep:vbyte"]
+default = []
 
 [dev-dependencies]
 
