@@ -25,7 +25,7 @@ run
 
 ```txt
 + cargo test --all-features -- --nocapture
-     Running tests/main.rs (target/debug/deps/main-bd832b46b787ebcb)
+     Running tests/main.rs (target/debug/deps/main-7e096ba477b9f75a)
 [tests/main.rs:7] &b64 = "AQID"
 [tests/main.rs:8] b64d(b64).unwrap() = [
     1,
