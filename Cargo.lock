@@ -3,14 +3,6 @@
 version = 3
 
 [[package]]
-name = "b64"
-version = "0.0.2"
-dependencies = [
- "base64",
- "intbin",
-]
-
-[[package]]
 name = "base64"
 version = "0.21.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -21,3 +13,11 @@ name = "intbin"
 version = "0.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f7d0cd59142d2aec41e99627d7cf01f99af8599b286b1e02fdce8b926dff655e"
+
+[[package]]
+name = "ub64"
+version = "0.0.2"
+dependencies = [
+ "base64",
+ "intbin",
+]

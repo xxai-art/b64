@@ -1,4 +1,4 @@
-use b64::{b64_u64, b64d, b64e, u64_b64};
+use ub64::{b64_u64, b64d, b64e, u64_b64};
 
 #[test]
 fn main() {
