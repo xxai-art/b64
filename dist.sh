@@ -4,7 +4,8 @@ DIR=$(realpath $0) && DIR=${DIR%/*}
 cd $DIR
 set -ex
 
-./run.sh >out.txt
+./run.sh 2>out.txt
+head -n -3 out.txt | tail -n +4 >tmp && mv tmp out.txt
 
 mdi
 

@@ -1,13 +1,19 @@
 [package]
 name = "b64"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 license = "BSL-1.0"
 homepage = "https://github.com/xxai-art/b64"
 repository = "https://github.com/xxai-art/b64"
-description = ""
+description = "urlsafe base64 encode / decode"
 
 [dependencies]
+base64 = "0.21.2"
+intbin = { version = "0.0.5", optional = true }
+
+[features]
+intbin = ["dep:intbin"]
+default = ["intbin"]
 
 [dev-dependencies]
 
