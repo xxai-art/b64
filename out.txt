@@ -1,5 +1,8 @@
 + cargo test --all-features -- --nocapture
-     Running tests/main.rs (target/debug/deps/main-8af48d1761c45bbe)
+   Compiling ub64 v0.0.10 (/Users/z/art/ub64)
+    Finished test [unoptimized + debuginfo] target(s) in 0.23s
+     Running unittests src/lib.rs (target/debug/deps/ub64-570c3c5c08cc4f67)
+     Running tests/main.rs (target/debug/deps/main-d823659a8a43a707)
 [tests/main.rs:7] &b64 = "AQID"
 [tests/main.rs:8] b64d(b64).unwrap() = [
     1,
